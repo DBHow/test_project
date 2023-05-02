@@ -16,11 +16,6 @@
 			"name": "scripts/table_2.sql",
 			"order": 2,
 			"description": "ddl script to create table_2"
-		},
-		{
-			"name": "scripts/table_3.sql",
-			"order": 2,
-			"description": "ddl script to create table_3"
 		}
 	]
 }
