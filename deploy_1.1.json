@@ -1,0 +1,16 @@
+{
+	"project": "test_project",
+	"version": 1.1,
+	"description": "this is a deployment for test project v1.0",
+	"usernamePath": "/iqst/dba/dbpipeline/project_username",
+	"passwordPath": "/iqst/dba/dbpipeline/project_password",
+	"targetHost": "iqst-ods-pg11-sbx.cluster-cfetz1iqyyob.us-east-1.rds.amazonaws.com",
+	"targetDatabase": "iqodssandbox",
+	"files": [
+		{
+			"name": "scripts/table_3.sql",
+			"order": 2,
+			"description": "ddl script to create table_3"
+		}
+	]
+}
