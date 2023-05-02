@@ -1,1 +1,0 @@
-create table public.table_3 (id integer);
