@@ -2,10 +2,7 @@
 	"project": "test_project",
 	"version": 1.1,
 	"description": "this is a deployment for test project v1.0",
-	"usernamePath": "/iqst/dba/dbpipeline/project_username",
-	"passwordPath": "/iqst/dba/dbpipeline/project_password",
-	"targetHost": "iqst-ods-pg11-sbx.cluster-cfetz1iqyyob.us-east-1.rds.amazonaws.com",
-	"targetDatabase": "iqodssandbox",
+	"targetDatabaseSecret": "/iqst/dba/dbpipeline/test_project",
 	"files": [
 		{ 
 			"name": "scripts/table_1.sql", 

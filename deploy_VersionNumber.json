@@ -1,5 +1,5 @@
 {
-	"__project_comment__": "project name. if credential paths not provided, the project name can be used to locate username/password in parameter store",
+	"__project_comment__": "project name. if target database secret name not provided, the project name can be used to locate it in secrets manager",
 	"project": "test_project",
 
 	"__version_comment__": "version number, which is used along with project name to distinguish different deployments",
@@ -7,13 +7,8 @@
 
 	"description": "this is a deployment for test project v1.0",
 	
-	"__credential_comment__": "optional. paths of username/password in parameter store",
-	"usernamePath": "/iqst/dba/dbpipeline/project_username",
-	"passwordPath": "/iqst/dba/dbpipeline/project_password",
-
-	"__connection_comment__": "connection information",
-	"targetHost": "iqst-ods-pg11-sbx.cluster-cfetz1iqyyob.us-east-1.rds.amazonaws.com",
-	"targetDatabase": "iqodssandbox",
+	"__targetDatabaseSecret_comment__": "optional. secret name for the target database",
+	"targetDatabaseSecret": "/iqst/dba/dbpipeline/test_project",
 
 	"__files_comment__": "this filed contains information for sql script files which need to be deployed in the target database. also the order tells the sequence the files need to be executed",
 	"files": [
@@ -23,12 +18,12 @@
 			"description": "ddl script to create table_1"
 		},
 		{
-			"name": "scripts/table_2.sql",
+			"name": "scripts/sub_dir1/table_2.sql",
 			"order": 2,
 			"description": "ddl script to create table_2"
 		},
 		{
-			"name": "scripts/table_3.sql",
+			"name": "scripts/sub_dir2/table_3.sql",
 			"order": 2,
 			"description": "ddl script to create table_3"
 		}
