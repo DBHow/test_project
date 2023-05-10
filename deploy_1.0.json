@@ -2,7 +2,7 @@
 	"project": "test_project",
 	"version": 1.0,
 	"deployAttempt": 1,
-	"description": "this is a deployment for test_project v1.0",
+	"description": "this is the first attempt of deployment for test_project v1.0",
 	"targetDatabaseSecret": "/iqst/dba/dbpipeline/test_project",
 	"files": [
 		{ 
