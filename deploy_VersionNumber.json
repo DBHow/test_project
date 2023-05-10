@@ -10,7 +10,7 @@
 	"__targetDatabaseSecret_comment__": "optional. secret name for the target database",
 	"targetDatabaseSecret": "/iqst/dba/dbpipeline/test_project",
 
-	"__files_comment__": "this filed contains information for sql script files which need to be deployed in the target database. also the order tells the sequence the files need to be executed",
+	"__files_comment__": "this field contains information for sql script files which need to be deployed in the target database. also the order tells the sequence the files need to be executed",
 	"files": [
 		{ 
 			"name": "scripts/table_1.sql", 

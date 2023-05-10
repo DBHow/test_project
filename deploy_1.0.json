@@ -8,11 +8,6 @@
 			"name": "scripts/table_1.sql", 
 			"order": 1,
 			"description": "ddl script to create table_1"
-		},
-		{
-			"name": "scripts/table_2.sql",
-			"order": 2,
-			"description": "ddl script to create table_2"
 		}
 	]
 }

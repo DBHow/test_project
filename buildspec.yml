@@ -1,0 +1,19 @@
+---
+version: '0.2'
+env:
+  variables:
+    AWS_REGION: "us-east-1"
+phases:
+  install:
+    runtime-versions:
+      python: 3.10
+      
+  pre_build:
+    commands:
+      - aws codeartifact login --region us-east-1 --tool pip --domain gh-domain --domain-owner 137207230541 --repository gh-repo
+      
+  build:
+    commands:
+      - echo Running...
+      - pip install sql_runner
+      - db-deploy --source-dir $CODEBUILD_SRC_DIR --deploy-file $DEPLOY_METADATA_FILE
