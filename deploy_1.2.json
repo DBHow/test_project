@@ -4,6 +4,7 @@
 	"deployAttempt": 1,
 	"description": "this is the first attempt of deployment for test_project v1.2",
 	"targetDatabaseSecret": "/iqst/dba/dbpipeline/test_project",
+	
 	"files": [
 		{
 			"name": "scripts/dml/qa/script1.sql",
