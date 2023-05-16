@@ -4,6 +4,9 @@
 
 	"__version_comment__": "version number, which is used along with project name to distinguish different deployments",
 	"version": 1.0,
+	
+	"__deployAttemp_comment__": "the number of attempts of deployment",
+	"deployAttempt": 1,
 
 	"description": "this is a deployment for test project v1.0",
 	
