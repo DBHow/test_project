@@ -1,8 +1,8 @@
 {
 	"project": "test_project",
 	"version": 1.2,
-	"deployAttempt": 1,
-	"description": "this is the first attempt of deployment for test_project v1.2",
+	"deployAttempt": 2,
+	"description": "this is the second attempt of deployment for test_project v1.2",
 	"targetDatabaseSecret": "/iqst/dba/dbpipeline/test_project",
 	
 	"files": [
